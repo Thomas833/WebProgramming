@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    background-color: pink;
+    padding: 1rem;
+}
+.outer {
+    height: 20vh;
+    border: 3px;
+    border-style: dashed;
+    background-color: #D1ECFF;
+}
+.inner {
+    width: 30%;
+    background-color: #FFFFFF;
+    border: double;
+    border-color: blue;
+}
+.inner p {
+    color: green;
+    background-color: orange;
+}
+#outer1 {
+    width: 50%;
+    padding: 1em;
+    padding-top: 2em;
+}
+#inner1 {
+    width: 50%;
+    margin: auto;
+    /* The effect is that the content is centered, border and text. This also affects the inner elements if they are sized with em units.*/
+}
+#para1 {
+    font-size: 1.1rem;
+    margin-top: .5em;
+    margin-left: 2em;
+}
+#outer2 {
+    width: 50vw;
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#inner2 {
+    padding-bottom: 1em;
+    float: right;
+}
+#para2 {
+    margin: 15px 5px 10px 30px;
+}
+#outer3 {
+    width: 50%;
+    height: 25vh;
+    margin-top: 30px;
+}
+#inner3 {
+    height: 50%;
+    padding: .5em;
+    float: left;
+    outline: 5px solid #4CAF50;
+}
+#para3 {
+    padding: 1em;
+}

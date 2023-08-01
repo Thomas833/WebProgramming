@@ -1,0 +1,113 @@
+/*
+	Style for Unit 2, Part IV
+
+/* Styles here for the body */
+body {
+    background-color: #f4ffe4;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Styling for the wrapper and content includes
+
+    The wrapper is centered and takes 80% of the space
+    The wrapper background color is white
+    The wrapper should not be visible above the corners of header USE MY WORDING
+    There is some space between the content area text and the wrapper border
+	Set a minimum height (550 px) and width (600 px) so that scroll bars 
+	appear if the window size is too small.
+*/
+#wrapper {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+/* Styling for the header includes
+
+    A background color (#d5edb3) 
+    The company name is centered
+    The company name has a shadow below and to the right.
+    A rounded border (I used a color of #333333 and rounded 15px)
+	A logo on the right side (hint: use background-image... google!)
+*/
+header {
+    background-color: #d5edb3;
+    text-align: center;
+    text-shadow: 2px 4px 9px black;
+    border: 2px solid #333333;
+    border-radius: 15px;
+    height: 80px;
+    background-image: url(turtle2.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: 5px 8px 12px #333333;
+}
+
+
+/* Styling for the nav menu includes
+
+    A background color (#ccff99)
+    Matching text and border (#333333)
+    Border is 1px
+    Links do not have underlines
+    Menu options are displayed in bold
+    The entire menu is indented to be visually appealing (~20px)
+    There is some white space between menu items
+*/
+
+nav a {
+    background-color: #98bf21;
+    color: #333333;
+    padding: .25em;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 1px;
+    border: 1px solid #333333;
+    }
+a:visited{
+    color: #333333;
+}
+
+/* Headers should use a reasonable serif font and generic family */
+h1, h2, h3, h4, h5, h6 {font-family:'Times New Roman', Times, serif;}
+
+/* The company name should always be bold, no matter where it appears */
+.company_name {
+    font-weight: bold;
+}
+
+/* Styling for the company motto includes:
+
+    italicized and centered
+    a ridge border with an extra thick left border and color (#99aa33) 
+*/
+.motto {
+    font-style: italic;
+    text-align: center;
+    border: #99aa33;
+    border-style: ridge;
+    border-width: 6px 6px 6px 40px;
+    
+}
+
+/* The introduction paragraph should be indented.  Other paragraphs should not. */
+#intro {
+    text-indent:3em;
+}
+
+/* The list of services should have a line spacing of 1.5 and square bullets*/
+#services {
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
